@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+</head>
+<body>  
+    <h1>Imagem dinamica</h1>
+    <p></p>
+
+    <picture>
+        <source media="(max-width: 350px)" srcset="imagens/eulindo.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagens/medio.png" type="image/png">
+       <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>Reproduzindo Audio</h2>
+    <audio
+     src="media/ilovemom.mp3" type="audio/mpeg." controls>
+     </audio>
+     <h2>Reproduzindo Video</h2>
+
+    <video controls>
+        <source src="media/pexels-video.m4v" type="video/mp4">
+    </video>
+</body>
+</html>
